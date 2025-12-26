@@ -9,6 +9,6 @@
  * Custom Help Section Translation Format
  *
  * // Help Section {sid}
- * $l['s{sid}_name'] = "Section name";
- * $l['s{sid}_desc'] = "Section description";
+ * $l['s{sid}_name'] = "Bölüm adı";
+ * $l['s{sid}_desc'] = "Bölüm açıklaması";
  */
