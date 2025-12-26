@@ -5,11 +5,11 @@
  *
  */
 
-$l['nav_announcements'] = "Forum Announcement";
-$l['announcements'] = "Announcement";
-$l['forum_announcement'] = "Forum Announcement: {1}";
-$l['error_invalidannouncement'] = "The announcement specified is invalid.";
+$l['nav_announcements'] = "Forum Duyuruları";
+$l['announcements'] = "Duyurular";
+$l['forum_announcement'] = "Forum Duyurusu: {1}";
+$l['error_invalidannouncement'] = "Belirtilen duyuru geçersiz.";
 
-$l['announcement_edit'] = "Edit this announcement";
-$l['announcement_qdelete'] = "Delete this announcement";
-$l['announcement_quickdelete_confirm'] = "Are you sure you want to delete this announcement?";
+$l['announcement_edit'] = "Bu duyuruyu düzenle";
+$l['announcement_qdelete'] = "Bu duyuruyu sil";
+$l['announcement_quickdelete_confirm'] = "Bu duyuruyu silmek istediğinizden emin misiniz?";
