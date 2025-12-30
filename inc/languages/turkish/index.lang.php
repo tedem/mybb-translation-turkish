@@ -27,14 +27,17 @@ $l['stats_newestuser'] = "Son kayıt olan";
 $l['stats_mostonline'] = "Çevrimiçi rekor: {1} — {2}";
 $l['whos_online'] = "Kimler Çevrimiçi";
 $l['complete_list'] = "Tam Liste";
-$l['online_online_plural'] = "kullanıcılar";
-$l['online_online_singular'] = "kullanıcı";
-$l['online_member_plural'] = "üyeler";
-$l['online_member_singular'] = "üye";
-$l['online_anon_plural'] = "gizli kullanıcılar";
-$l['online_anon_singular'] = "gizli kullanıcı";
-$l['online_guest_plural'] = "ziyaretçiler";
-$l['online_guest_singular'] = "ziyaretçi";
-$l['online_note'] = "Son {3} dakika içinde {1} {2} aktif oldu — {4} {5}, {6} {7} ve {8} {9}.";
+// In Turkish language, the plural and singular forms are the same, so they are left empty.
+$l['online_online_plural'] = "";
+$l['online_online_singular'] = "";
+$l['online_member_plural'] = "";
+$l['online_member_singular'] = "";
+$l['online_anon_plural'] = "";
+$l['online_anon_singular'] = "";
+$l['online_guest_plural'] = "";
+$l['online_guest_singular'] = "";
+// Turkish grammar uses the same noun form for both singular and plural counts.
+// The strings have been manually adjusted to ensure natural phrasing.
+$l['online_note'] = "Son {3} dk. içinde {1} kullanıcı aktif oldu. ({4} üye, {6} gizli kullanıcı ve {8} ziyaretçi.)";
 $l['subforums'] = "Alt Forumlar:";
 $l['board_stats_link_separator'] = ' — ';
