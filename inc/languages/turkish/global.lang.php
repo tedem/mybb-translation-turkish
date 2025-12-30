@@ -18,7 +18,7 @@ $l['bottomlinks_forumteam'] = "Forum Ekibi";
 $l['bottomlinks_contactus'] = "Bize Ulaşın";
 $l['bottomlinks_returntop'] = "Başa Dön";
 $l['bottomlinks_syndication'] = "RSS Yayını";
-$l['bottomlinks_markread'] = "Tüm forumları okundu olarak işaretle";
+$l['bottomlinks_markread'] = "Okundu İşaretle";
 $l['bottomlinks_help'] = "Yardım";
 
 $l['nav_memberlist'] = "Üyeler";
@@ -400,7 +400,7 @@ $l['banned_warning2'] = "Yasaklama Nedeni";
 $l['banned_warning3'] = "Yasaklama kaldırılacak";
 $l['banned_lifted_never'] = "Asla";
 $l['banned_email_warning'] = "Şu anda bu forumda kullanılması izin verilmeyen bir e-posta adresi kullanıyorsunuz. Lütfen devam etmeden önce bunu sıfırlayın.";
-$l['powered_by'] = "Forum yazılımı tarafından";
+$l['powered_by'] = "Destekleyen";
 $l['powered_by_desc'] = "En iyi ücretsiz ve açık kaynak forum yazılımı";
 $l['copyright'] = "Telif Hakkı";
 $l['attach_quota'] = "Tahsis edilen ek kullanım kotanız {1}.";
