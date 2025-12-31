@@ -2,6 +2,11 @@
 
 This repository contains the Turkish language translation files for MyBB version 1.9.x.
 
+[![MyBB Version](https://img.shields.io/badge/MyBB-1.9.x-blue.svg)](https://github.com/mybb/mybb)
+[![Language](https://img.shields.io/badge/Language-Turkish-red.svg)](https://github.com/tedem/mybb-translation-turkish)
+[![Status](https://img.shields.io/badge/Status-Usable-green.svg)](https://github.com/tedem/mybb-translation-turkish)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Once MyBB 1.9 is released, this translation will be officially published. For now, you can download and use the source code directly from this repository.
 
 > [!Note]
