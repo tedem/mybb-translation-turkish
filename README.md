@@ -16,7 +16,6 @@ Details of the translation are as follows:
 | **Translator**   | Medet "tedem" Erdal |
 | **MyBB Version** | 1.9.x               |
 | **Language**     | Turkish (tr)        |
-| **Last Updated** | 30.12.2025          |
 | **Status**       | Usable              |
 
 ## Installation
