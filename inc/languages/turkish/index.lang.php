@@ -38,6 +38,6 @@ $l['online_guest_plural'] = "";
 $l['online_guest_singular'] = "";
 // Turkish grammar uses the same noun form for both singular and plural counts.
 // The strings have been manually adjusted to ensure natural phrasing.
-$l['online_note'] = "Son {3} dk. içinde {1} kullanıcı aktif oldu. ({4} üye, {6} gizli kullanıcı ve {8} ziyaretçi.)";
+$l['online_note'] = "Son {3} dk. içinde {1} kullanıcı aktif oldu. ({4} üye, {6} gizli ve {8} ziyaretçi.)";
 $l['subforums'] = "Alt Forumlar:";
 $l['board_stats_link_separator'] = ' — ';
