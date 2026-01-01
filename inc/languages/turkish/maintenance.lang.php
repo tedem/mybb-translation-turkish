@@ -72,7 +72,7 @@ Yakında çalışacak';
 
 #region fatal errors
 $l['locked_title'] = 'Devam Etmek İçin Kilidi Açın';
-$l['locked'] = 'Lütfen <code>{1}</code> dosyasını <code>install/</code> dizininden kaldırın ve bu MyBB panosunu yüklemek veya yükseltmek için tekrar deneyin.';
+$l['locked'] = 'Lütfen <code>{1}</code> dosyasını <code>install/</code> dizininden kaldırın ve bu MyBB forumunu kurmak veya yükseltmek için tekrar deneyin.';
 
 $l['empty_config_to_reinstall_title'] = 'MyBB\'yi Yeniden Yüklemeden Önce';
 $l['empty_config_to_reinstall'] = '<p>Mevcut forumun üzerine yazmak ve MyBB\'yi tekrar yüklemek istediğinizden emin iseniz, yapılandırma dosyasını <code>inc/config.php</code> boşaltın veya silin ve bu sayfayı yenileyin.
@@ -80,7 +80,7 @@ $l['empty_config_to_reinstall'] = '<p>Mevcut forumun üzerine yazmak ve MyBB\'yi
 <p>Forumunuzu yükseltmeyi planlıyorsanız, lütfen <a href="./upgrade.php"><strong>buraya tıklayın</strong></a>.';
 
 $l['upgrade_initialization_failed_title'] = 'Başlatma Başarısız Oldu';
-$l['upgrade_initialization_failed'] = 'MyBB\'yi yükseltmek için çalışan bir pano gereklidir. Yeni bir pano kurmayı planlıyorsanız, bunun yerine <a href="./index.php?process=install"><strong>kurulum sürecini</strong></a> başlatın.';
+$l['upgrade_initialization_failed'] = 'MyBB\'yi yükseltmek için çalışan bir forum gereklidir. Yeni bir forum kurmayı planlıyorsanız, bunun yerine <a href="./index.php?process=install"><strong>kurulum sürecini</strong></a> başlatın.';
 
 $l['upgrade_not_authorized_title'] = 'Yükseltme Yetkisi Gerekli';
 $l['upgrade_not_authorized'] = 'Kurulum dizininde <code>{1}</code> adlı bir dosya oluşturun ve bu sayfayı yenileyin.';
@@ -101,7 +101,7 @@ $l['flag_fast'] = 'Geliştirme modu ve varsayılanları kullan';
 // installation state
 $l['installation_state'] = 'Mevcut Durum';
 $l['installation_state_none'] = 'Yüklenmedi';
-$l['installation_state_none_description'] = 'Yüklü bir MyBB panosu tespit edilmedi.';
+$l['installation_state_none_description'] = 'Yüklü bir MyBB forumu tespit edilmedi.';
 $l['installation_state_configuration_file'] = '<abbr title="inc/config.php">Yapılandırma dosyası</abbr> ile çalışan veritabanı bağlantısı yok';
 $l['installation_state_configuration_file_description'] = 'Bir <abbr title="inc/config.php">Yapılandırma dosyası</abbr> mevcut, ancak çalışan bir veritabanı bağlantısı kurulamadı.';
 $l['installation_state_database_connection'] = '<abbr title="inc/config.php">Yapılandırma dosyası</abbr> ile geçerli veritabanı kimlik bilgileri, veritabanında veri yok';
@@ -110,8 +110,8 @@ $l['installation_state_installed'] = '{1} veya daha yeni sürüm yüklendi';
 #endregion
 
 #region data seeding
-$l['board_name_default'] = 'Benim Panom';
-$l['welcome_thread_username'] = 'MyBB Kurucusu';
+$l['board_name_default'] = 'MyBB';
+$l['welcome_thread_username'] = 'MyBB Bot';
 $l['welcome_thread_subject'] = 'MyBB\'ye Hoş Geldiniz!';
 $l['welcome_thread_message'] = 'Forumunuz başarıyla kuruldu.
 
@@ -154,17 +154,16 @@ $l['install_step_settings_title'] = 'Ayarlar';
 $l['install_step_account_title'] = 'Hesabım';
 
 // step pages
-$l['install_step_start_heading'] = 'Yeni Pano Kur';
-$l['install_step_start_heading_reinstall'] = 'Pano Yeniden Kur';
+$l['install_step_start_heading'] = 'Yeni Forum Kur';
+$l['install_step_start_heading_reinstall'] = 'Forumu Yeniden Kur';
 $l['install_step_start_description'] = 'MyBB kurulumuna hoş geldiniz. Bu işlem sırasında forum yazılımı sunucunuza kurulacaktır.';
-$l['install_step_start_description_reinstall'] = 'MyBB kurulumuna hoş geldiniz. Bu işlem sırasında forum yazılımı sunucunuza yeniden kurulacak ve mevcut pano üzerine yazılacaktır. Yeni bir forum oluşturulacak — mevcut konular, mesajlar, kullanıcılar ve diğer bilgiler silinecektir (<a href="./index.php?process=upgrade"><strong>yerine yükseltme yap?</strong></a>?).';
-$l['install_step_start_description_reinstall_cli'] = 'MyBB kurulumuna hoş geldiniz. Bu işlem sırasında forum yazılımı sunucunuza yeniden kurulacak ve mevcut pano üzerine yazılacaktır. Yeni bir forum oluşturulacak ve mevcut konular, mesajlar, kullanıcılar ve diğer bilgiler silinecektir.';
-
+$l['install_step_start_description_reinstall'] = 'MyBB kurulumuna hoş geldiniz. Bu işlem sırasında forum yazılımı sunucunuza yeniden kurulacak ve mevcut forum üzerine yazılacaktır. Yeni bir forum oluşturulacak — mevcut konular, mesajlar, kullanıcılar ve diğer bilgiler silinecektir (<a href="./index.php?process=upgrade"><strong>yerine yükseltme yap?</strong></a>?).';
+$l['install_step_start_description_reinstall_cli'] = 'MyBB kurulumuna hoş geldiniz. Bu işlem sırasında forum yazılımı sunucunuza yeniden kurulacak ve mevcut forum üzerine yazılacaktır. Yeni bir forum oluşturulacak ve mevcut konular, mesajlar, kullanıcılar ve diğer bilgiler silinecektir.';
 $l['install_step_database_heading'] = 'Veritabanına Bağlan';
 $l['install_step_database_instructions'] = 'Forum içeriğinin saklanacağı veritabanı için bağlantı bilgilerini sağlayın. Bu bilgileri bilmiyorsanız, genellikle web barındırıcınızdan alınabilir veya barındırma kontrol panelinizde bir veritabanı oluşturulabilir.';
 
-$l['install_step_settings_heading'] = 'Pano Ayarlarını Yapılandır';
-$l['install_step_settings_instructions'] = 'Yeni panonuz için temel ayarları yapılandırın ve gözden geçirin. Bunlar daha sonra kolayca değiştirilebilir.';
+$l['install_step_settings_heading'] = 'Forum Ayarlarını Yapılandır';
+$l['install_step_settings_instructions'] = 'Yeni forumunuz için temel ayarları yapılandırın ve gözden geçirin. Bunlar daha sonra kolayca değiştirilebilir.';
 
 $l['install_step_account_heading'] = 'Yönetici Hesabı Oluştur';
 $l['install_step_account_instructions'] = 'Yönetici yetkilerine sahip hesabınız için giriş bilgilerini ayarlayın.';
@@ -258,8 +257,8 @@ $l['upgrade_step_rebuilding_title'] = 'Yeniden Oluşturma';
 
 // step pages
 $l['upgrade_step_start_heading'] = 'MyBB Yazılımını Yükselt';
-$l['upgrade_step_start_description'] = 'MyBB yükseltmesine hoş geldiniz. Bu işlem, panonuzu yeni yazılım sürümünü kullanacak şekilde güncelleyecektir.<br><br>Yükseltmeden önce veritabanınızın ve dosyalarınızın yedeğini oluşturmanızı ve doğrulamanızı şiddetle tavsiye ederiz.';
-$l['upgrade_step_start_description_link'] = 'MyBB yükseltmesine hoş geldiniz. Bu işlem, panonuzu yeni yazılım sürümünü kullanacak şekilde güncelleyecektir (<a href="./index.php?process=install"><strong>yerine yeniden yükleme</strong></a>?).<br><br>Yükseltmeden önce veritabanınızın ve dosyalarınızın yedeğini oluşturmanızı ve doğrulamanızı şiddetle tavsiye ederiz.';
+$l['upgrade_step_start_description'] = 'MyBB yükseltmesine hoş geldiniz. Bu işlem, forumu yeni yazılım sürümünü kullanacak şekilde güncelleyecektir.<br><br>Yükseltmeden önce veritabanınızın ve dosyalarınızın yedeğini oluşturmanızı ve doğrulamanızı şiddetle tavsiye ederiz.';
+$l['upgrade_step_start_description_link'] = 'MyBB yükseltmesine hoş geldiniz. Bu işlem, forumu yeni yazılım sürümünü kullanacak şekilde güncelleyecektir (<a href="./index.php?process=install"><strong>yerine yeniden yükleme</strong></a>?).<br><br>Yükseltmeden önce veritabanınızın ve dosyalarınızın yedeğini oluşturmanızı ve doğrulamanızı şiddetle tavsiye ederiz.';
 
 $l['upgrade_step_migration_heading'] = 'Veri Taşıma';
 $l['upgrade_step_migration_description'] = 'Uygulanabilir yükseltme betikleri şimdi yürütülecektir.';
