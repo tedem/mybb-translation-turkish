@@ -1,0 +1,631 @@
+<?php
+/**
+ * MyBB 1.9 Turkish Language Pack
+ * Copyright 2014 MyBB Group, All Rights Reserved
+ *
+ */
+
+$l['redirect_width'] = "50%";
+$l['lastvisit_never'] = "Hiç";
+$l['lastvisit_hidden'] = "(Gizli)";
+
+$l['search_button'] = 'Ara';
+$l['toplinks_memberlist'] = "Üyeler";
+$l['toplinks_search'] = "Ara";
+$l['toplinks_calendar'] = "Takvim";
+$l['toplinks_portal'] = "Portal";
+$l['bottomlinks_forumteam'] = "Forum Ekibi";
+$l['bottomlinks_contactus'] = "Bize Ulaşın";
+$l['bottomlinks_returntop'] = "Başa Dön";
+$l['bottomlinks_syndication'] = "RSS Yayını";
+$l['bottomlinks_markread'] = "Okundu İşaretle";
+$l['bottomlinks_help'] = "Yardım";
+
+$l['nav_memberlist'] = "Üyeler";
+
+$l['welcome_usercp'] = "Hesabım";
+$l['welcome_modcp'] = "Moderatör";
+$l['welcome_admin'] = "Yönetim";
+$l['welcome_logout'] = "Çıkış Yap";
+$l['welcome_login'] = "Giriş Yap";
+$l['welcome_register'] = "Kayıt Ol";
+$l['welcome_open_buddy_list'] = "Arkadaş Listesi";
+$l['welcome_newposts'] = "Yeni Mesajlar";
+$l['welcome_todaysposts'] = "Bugünün Mesajları";
+$l['welcome_pms'] = "Mesajlar";
+$l['welcome_pms_usage'] = "(Okunmamış {1}, Toplam {2})";
+$l['welcome_back'] = "<strong>Tekrar hoş geldiniz, {1}</strong>. Son ziyaretiniz: {2}";
+$l['welcome_guest'] = "Merhaba, Ziyaretçi!";
+$l['welcome_current_time'] = "<strong>Şu anki zaman:</strong> {1}";
+$l['welcome_my_avatar'] = "Avatarım";
+$l['welcome_my_profile'] = "Profilime Git";
+
+$l['moved_prefix'] = "Taşındı";
+$l['poll_prefix'] = "Anket";
+
+$l['forumbit_announcements'] = "Duyurular";
+$l['forumbit_stickies'] = "Önemli Konular";
+$l['forumbit_forum'] = "Forum";
+$l['forumbit_threads'] = "Konular";
+$l['forumbit_posts'] = "Mesajlar";
+$l['forumbit_lastpost'] = "Son Mesaj";
+$l['forumbit_moderated_by'] = "Moderatörler:";
+$l['forum_count_threads'] = "konular";
+$l['forum_count_thread'] = "konu";
+$l['forum_count_posts'] = "mesajlar";
+$l['forum_count_post'] = "mesaj";
+$l['new_posts'] = "Forum Yeni Mesajlar İçeriyor";
+$l['no_new_posts'] = "Forum Yeni Mesaj İçermiyor";
+$l['click_mark_read'] = "Bu forumu okundu olarak işaretlemek için tıklayın";
+$l['forum_closed'] = "Forum Kapalı";
+$l['forum_redirect'] = "Yönlendirme Forumu";
+$l['lastpost_by'] = "Son mesaj:";
+$l['lastpost_no_posts'] = "Henüz mesaj yok";
+$l['viewing_one'] = " (1 görüntüleyen)";
+$l['viewing_multiple'] = " ({1} görüntüleyen)";
+$l['by'] = "";
+$l['more_subforums_single'] = "1 alt forum daha";
+$l['more_subforums_multiple'] = "{1} alt forum daha";
+
+$l['password_required'] = "Şifre Gerekli";
+$l['forum_password_note'] = "Bu foruma erişim sağlamak için şifreyi girmeniz gerekmektedir";
+$l['enter_password_below'] = "Forum şifresini girin";
+$l['verify_forum_password'] = "Forum Şifresini Doğrula";
+$l['wrong_forum_password'] = "Girdiğiniz şifre yanlış. Lütfen tekrar deneyin.";
+
+$l['reset_button'] = "Sıfırla";
+$l['username'] = "Kullanıcı Adı";
+$l['username1'] = "E-posta";
+$l['username2'] = "Kullanıcı Adı/E-posta";
+$l['password'] = "Şifre";
+$l['login_username'] = "Kullanıcı Adı";
+$l['login_username1'] = "E-posta";
+$l['login_username2'] = "Kullanıcı Adı/E-posta";
+$l['login_password'] = "Şifre";
+$l['lost_password'] = "Şifremi Unuttum?";
+$l['remember_me'] = "Beni Hatırla";
+$l['remember_me_desc'] = "İşaretlenirse, giriş bilgileriniz bu bilgisayarda hatırlanacak, aksi takdirde tarayıcınızı kapattığınızda oturumunuz sonlandırılacaktır.";
+
+$l['month_1'] = "Ocak";
+$l['month_2'] = "Şubat";
+$l['month_3'] = "Mart";
+$l['month_4'] = "Nisan";
+$l['month_5'] = "Mayıs";
+$l['month_6'] = "Haziran";
+$l['month_7'] = "Temmuz";
+$l['month_8'] = "Ağustos";
+$l['month_9'] = "Eylül";
+$l['month_10'] = "Ekim";
+$l['month_11'] = "Kasım";
+$l['month_12'] = "Aralık";
+
+$l['sunday'] = "Pazar";
+$l['monday'] = "Pazartesi";
+$l['tuesday'] = "Salı";
+$l['wednesday'] = "Çarşamba";
+$l['thursday'] = "Perşembe";
+$l['friday'] = "Cuma";
+$l['saturday'] = "Cumartesi";
+$l['short_monday'] = "P";
+$l['short_tuesday'] = "S";
+$l['short_wednesday'] = "Ç";
+$l['short_thursday'] = "P";
+$l['short_friday'] = "C";
+$l['short_saturday'] = "C";
+$l['short_sunday'] = "S";
+
+$l['yes'] = "Evet";
+$l['no'] = "Hayır";
+
+$l['and'] = "ve";
+$l['date'] = "Tarih";
+
+$l['nobody'] = "Kimse";
+
+$l['close'] = "Kapat";
+
+$l['attachments'] = "Ekler";
+$l['attachments_desc'] = "İsterseniz bu mesaja bir veya daha fazla ek ekleyebilirsiniz. Lütfen sağdaki dosyayı seçin ve yüklemek için 'Ek Ekle'ye tıklayın.";
+$l['remove_attachment'] = "Kaldır";
+$l['approve_attachment'] = "Onayla";
+$l['unapprove_attachment'] = "Onaylamayı Kaldır";
+$l['insert_attachment_post'] = "Mesaja Ekle";
+$l['new_attachment'] = "Yeni Ek:";
+$l['add_attachment'] = "Ek Ekle";
+$l['update_attachment'] = "Eki Güncelle";
+$l['upload_attachments'] = "Ekleri Yükle";
+$l['attachment_missing'] = "Eklemeye çalışmadan önce lütfen bir veya daha fazla dosya seçin.";
+$l['attachment_too_many_files'] = "En fazla {1} dosya yükleyebilirsiniz.";
+$l['attachment_max_allowed_files'] = "Bu mesaja {1} dosya daha ekleyebilirsiniz.";
+$l['attachment_too_big_upload'] = "En fazla {1} MB dosya yükleyebilirsiniz.";
+$l['drop_files'] = "Yüklemek için buraya tıklayın veya dosyaları bırakın...";
+$l['upload_initiate'] = "Yüklemeyi başlatmak için bırakın...";
+$l['post_preview'] = "Önizleme";
+$l['change_user'] = "kullanıcı değiştir";
+$l['post_icon'] = "Mesaj Simgesi:";
+$l['no_post_icon'] = "Mesaj Simgesi Yok";
+$l['thread_subscription_method'] = "Konu Aboneliği";
+$l['thread_subscription_method_desc'] = "Bu konuya abone olmak ve bildirim almak istediğiniz türü belirtin. (Kayıtlı kullanıcılar için.)";
+$l['no_subscribe'] = "Bu konuya abone olma";
+$l['no_subscribe_notification'] = "Yeni cevaplar hakkında bildirim almadan abone ol";
+$l['instant_email_subscribe'] = "Yeni cevaplar hakkında e-posta bildirimi alarak abone ol";
+$l['instant_pm_subscribe'] = "Yeni cevaplar hakkında Özel Mesaj bildirimi alarak abone ol";
+$l['options'] = "Seçenekler";
+
+$l['today_rel'] = "<span title=\"{1}\">Bugün</span>";
+$l['yesterday_rel'] = "<span title=\"{1}\">Dün</span>";
+$l['today'] = "Bugün";
+$l['yesterday'] = "Dün";
+$l['error'] = "Forum Mesajı";
+
+$l['multipage_pages'] = "Sayfalar ({1}):";
+$l['multipage_last'] = "Son";
+$l['multipage_first'] = "İlk";
+$l['multipage_next'] = "Sonraki";
+$l['multipage_previous'] = "Önceki";
+$l['multipage_link_start'] = " &hellip;";
+$l['multipage_link_end'] = "&hellip; ";
+$l['multipage_jump'] = "Sayfaya atla";
+
+$l['editor_bold'] = "Kalın";
+$l['editor_italic'] = "İtalik";
+$l['editor_underline'] = "Altı Çizili";
+$l['editor_strikethrough'] = "Üstü Çizili";
+$l['editor_subscript'] = "Alt Simge";
+$l['editor_superscript'] = "Üst Simge";
+$l['editor_alignleft'] = "Sola Hizala";
+$l['editor_center'] = "Ortala";
+$l['editor_alignright'] = "Sağa Hizala";
+$l['editor_justify'] = "Yasla";
+$l['editor_fontname'] = "Yazı Tipi";
+$l['editor_fontsize'] = "Yazı Boyutu";
+$l['editor_fontcolor'] = "Yazı Rengi";
+$l['editor_removeformatting'] = "Biçimlendirmeyi Kaldır";
+$l['editor_cut'] = "Kes";
+$l['editor_copy'] = "Kopyala";
+$l['editor_paste'] = "Yapıştır";
+$l['editor_cutnosupport'] = "Tarayıcınız kesme komutuna izin vermiyor. Lütfen klavye kısayolu Ctrl/Cmd-X'i kullanın";
+$l['editor_copynosupport'] = "Tarayıcınız kopyalama komutuna izin vermiyor. Lütfen klavye kısayolu Ctrl/Cmd-C'yi kullanın";
+$l['editor_pastenosupport'] = "Tarayıcınız yapıştırma komutuna izin vermiyor. Lütfen klavye kısayolu Ctrl/Cmd-V'yi kullanın";
+$l['editor_pasteentertext'] = "Metninizi aşağıdaki kutuya yapıştırın:";
+$l['editor_pastetext'] = "Metni Yapıştır";
+$l['editor_numlist'] = "Numaralı liste";
+$l['editor_bullist'] = "Madde işaretli liste";
+$l['editor_undo'] = "Geri Al";
+$l['editor_redo'] = "Yinele";
+$l['editor_rows'] = "Satırlar:";
+$l['editor_cols'] = "Sütunlar:";
+$l['editor_inserttable'] = "Tablo Ekle";
+$l['editor_inserthr'] = "Yatay Çizgi Ekle";
+$l['editor_code'] = "Kod";
+$l['editor_php'] = "PHP";
+$l['editor_width'] = "Genişlik (isteğe bağlı):";
+$l['editor_height'] = "Yükseklik (isteğe bağlı):";
+$l['editor_insertimg'] = "Resim Ekle";
+$l['editor_email'] = "E-posta:";
+$l['editor_insertemail'] = "E-posta Ekle";
+$l['editor_url'] = "URL:";
+$l['editor_insertlink'] = "Link Ekle";
+$l['editor_unlink'] = "Linki Kaldır";
+$l['editor_more'] = "Daha Fazla";
+$l['editor_insertemoticon'] = "Bir ifade ekle";
+$l['editor_videourl'] = "Video URL:";
+$l['editor_videotype'] = "Video Türü:";
+$l['editor_insert'] = "Ekle";
+$l['editor_insertyoutubevideo'] = "Bir YouTube videosu ekle";
+$l['editor_currentdate'] = "Bugünün tarihini ekle";
+$l['editor_currenttime'] = "Şu anki zamanı ekle";
+$l['editor_print'] = "Yazdır";
+$l['editor_viewsource'] = "Kaynağı Görüntüle";
+$l['editor_description'] = "Açıklama (isteğe bağlı):";
+$l['editor_enterimgurl'] = "Resim URL'sini girin:";
+$l['editor_enteremail'] = "E-posta adresini girin:";
+$l['editor_enterdisplayedtext'] = "Görüntülenen metni girin:";
+$l['editor_enterurl'] = "URL'yi girin:";
+$l['editor_enteryoutubeurl'] = "YouTube video URL'sini veya ID'sini girin:";
+$l['editor_insertquote'] = "Alıntı Ekle";
+$l['editor_invalidyoutube'] = "Geçersiz YouTube videosu";
+$l['editor_dailymotion'] = "Dailymotion";
+$l['editor_metacafe'] = "MetaCafe";
+$l['editor_mixer'] = "Mixer";
+$l['editor_vimeo'] = "Vimeo";
+$l['editor_youtube'] = "Youtube";
+$l['editor_twitch'] = "Twitch";
+$l['editor_facebook'] = "Facebook";
+$l['editor_liveleak'] = "LiveLeak";
+$l['editor_insertvideo'] = "Video Ekle";
+$l['editor_maximize'] = "Maksimize Et";
+
+$l['quote'] = "Alıntı:";
+$l['wrote'] = "yazdı:";
+$l['code'] = "Kod:";
+$l['php_code'] = "PHP Kodu:";
+$l['posted_image'] = "[Resim: {1}]";
+$l['posted_video'] = "[Video: {1}]";
+$l['linkback'] = "Orijinal Gönderi";
+
+$l['at'] = " - ";
+$l['na'] = "N/A";
+$l['guest'] = "Ziyaretçi";
+$l['unknown'] = "Bilinmiyor";
+$l['never'] = "Asla";
+$l['postbit_posts'] = "Gönderiler";
+$l['postbit_threads'] = "Konular";
+$l['postbit_group'] = "Grup";
+$l['postbit_joined'] = "Katılım Tarihi";
+$l['postbit_status'] = "Durum";
+$l['postbit_attachments'] = "Ekli Dosyalar";
+$l['postbit_attachment_filename'] = "Dosya Adı:";
+$l['postbit_attachment_size'] = "Boyut:";
+$l['postbit_attachment_downloads'] = "İndirmeler:";
+$l['postbit_attachments_images'] = "Resim(ler)";
+$l['postbit_attachments_thumbnails'] = "Küçük Resim(ler)";
+$l['postbit_unapproved_attachments'] = "{1} onaylanmamış ek.";
+$l['postbit_unapproved_attachment'] = "1 onaylanmamış ek.";
+$l['postbit_status_online'] = "Çevrimiçi";
+$l['postbit_status_offline'] = "Çevrimdışı";
+$l['postbit_status_away'] = "Uzakta";
+$l['postbit_edited'] = "Bu gönderi son olarak {1} tarihinde düzenlendi:";
+$l['postbit_editreason'] = "Düzenleme Nedeni";
+$l['postbit_ipaddress'] = "IP Adresi";
+$l['postbit_ipaddress_logged'] = "Kayıtlı";
+$l['postbit_post'] = "Gönderi";
+$l['postbit_reputation'] = "İtibar";
+$l['postbit_reputation_add'] = "Bu kullanıcıya İtibar Ver";
+$l['postbit_website'] = "Bu kullanıcının web sitesini ziyaret et";
+$l['postbit_email'] = "Bu kullanıcıya e-posta gönder";
+$l['postbit_find'] = "Bu kullanıcının tüm gönderilerini bul";
+$l['postbit_report'] = "Bu gönderiyi bir moderatöre bildir";
+$l['postbit_quote'] = "Bu mesajı bir yanıtta alıntıla";
+$l['postbit_qdelete_post'] = "Bu gönderiyi sil";
+$l['postbit_qdelete_thread'] = "Bu konuyu sil";
+$l['postbit_qrestore_post'] = "Bu gönderiyi geri yükle";
+$l['postbit_qrestore_thread'] = "Bu konuyu geri yükle";
+$l['postbit_profile'] = "Bu kullanıcının profilini görüntüle";
+$l['postbit_pm'] = "Bu kullanıcıya özel mesaj gönder";
+$l['postbit_edit'] = "Bu gönderiyi düzenle";
+$l['postbit_multiquote'] = "Bu gönderiyi alıntıla";
+$l['postbit_quick_edit'] = "Hızlı Düzenle";
+$l['postbit_full_edit'] = "Tam Düzenle";
+$l['postbit_show_ignored_post'] = "Bu Gönderiyi Göster";
+$l['postbit_currently_ignoring_user'] = "Bu mesajın içeriği gizlenmiştir çünkü {1} sizin <a href=\"usercp.php?action=editlists\">engelleme listenizde</a> yer almaktadır.";
+$l['postbit_post_under_moderation'] = "Tarafınızdan yapılan gönderi moderasyona tabidir ve şu anda genel olarak görünür değildir. Gönderi, bir moderatör onayladıktan sonra herkes tarafından görülebilecektir.";
+$l['postbit_warning_level'] = "Uyarı Seviyesi";
+$l['postbit_warning_level'] = "Uyarı Seviyesi:";
+$l['postbit_warn'] = "Bu gönderinin yazarı için uyarı ver";
+$l['postbit_purgespammer'] = "Spam Göndereni Temizle";
+$l['postbit_post_deleted'] = "Bu gönderi silinmiştir";
+$l['postbit_post_unapproved'] = "Bu gönderi onay bekliyor";
+$l['postbit_thread_deleted'] = "Bu konu silinmiştir";
+$l['postbit_thread_unapproved'] = "Bu konu onay bekliyor";
+$l['postbit_deleted_post_user'] = "{1} tarafından yazılan bu gönderi silinmiştir";
+$l['postbit_post_options'] = "Gönderi Seçenekleri";
+
+$l['postbit_button_reputation_add'] = 'İtibar Ver';
+$l['postbit_button_website'] = 'Web Sitesi';
+$l['postbit_button_email'] = 'E-posta';
+$l['postbit_button_find'] = 'Bul';
+$l['postbit_button_report'] = 'Bildir';
+$l['postbit_button_quote'] = 'Yanıtla';
+$l['postbit_button_qdelete'] = 'Sil';
+$l['postbit_button_qrestore'] = 'Geri Yükle';
+$l['postbit_button_profile'] = 'Profil';
+$l['postbit_button_pm'] = 'Özel Mesaj';
+$l['postbit_button_warn'] = 'Uyar';
+$l['postbit_button_edit'] = 'Düzenle';
+$l['postbit_button_multiquote'] = 'Alıntı Yap';
+$l['postbit_button_reply_pm'] = 'Özel Mesajla Yanıtla';
+$l['postbit_button_reply_all'] = 'Herkese Yanıtla';
+$l['postbit_button_forward'] = 'İlet';
+$l['postbit_button_delete_pm'] = 'Sil';
+$l['postbit_button_purgespammer'] = "Spam Göndereni Temizle";
+
+$l['forumjump'] = "Forum Atla:";
+$l['forumjump_pms'] = "Özel Mesajlar";
+$l['forumjump_usercp'] = "Kullanıcı Kontrol Paneli";
+$l['forumjump_wol'] = "Kimler Çevrimiçi";
+$l['forumjump_search'] = "Ara";
+$l['forumjump_home'] = "Forum Ana Sayfası";
+
+$l['confirm_title'] = "Lütfen Onaylayın";
+$l['redirect'] = "Şimdi yönlendirileceksiniz";
+$l['unknown_error'] = "Bilinmeyen bir hata oluştu.";
+$l['post_fetch_error'] = 'Gönderiler alınırken bir hata oluştu.';
+
+$l['smilieinsert'] = "İfade Ekle";
+$l['smilieinsert_getmore'] = "Daha Fazla Al";
+$l['on'] = "Açık";
+$l['off'] = "Kapalı";
+$l['remote_avatar_disabled_default_avatar'] = "Şu anda devre dışı bırakılmış bir uzak avatar kullanıyorsunuz. Bunun yerine varsayılan avatar kullanılacaktır.";
+$l['mod_notice'] = "Moderasyon Bekliyor: {1}.";
+$l['unapproved_thread'] = "1 onaylanmamış konu";
+$l['unapproved_threads'] = "{1} onaylanmamış konu";
+$l['unapproved_post'] = "1 onaylanmamış gönderi";
+$l['unapproved_posts'] = "{1} onaylanmamış gönderi";
+$l['unapproved_attachment'] = "1 onaylanmamış ek";
+$l['unapproved_attachments'] = "{1} onaylanmamış ek";
+$l['unread_report'] = "1 okunmamış rapor";
+$l['unread_reports'] = "{1} okunmamış rapor";
+$l['groupleader_notice'] = "Grup Lideri Bildirimi:";
+$l['pending_joinrequest'] = "1 bekleyen grup üyeliği katılma isteği.";
+$l['pending_joinrequests'] = "{1} bekleyen grup üyeliği katılma isteği.";
+
+$l['advanced_search'] = "Gelişmiş Arama";
+$l['search_user'] = "Kullanıcı Ara";
+
+$l['year'] = "Yıl";
+$l['year_short'] = "y";
+$l['years'] = "Yıllar";
+$l['years_short'] = "y";
+$l['month'] = "Ay";
+$l['month_short'] = "a";
+$l['months'] = "Aylar";
+$l['months_short'] = "a";
+$l['week'] = "Hafta";
+$l['week_short'] = "h";
+$l['weeks'] = "Haftalar";
+$l['weeks_short'] = "h";
+$l['day'] = "Gün";
+$l['day_short'] = "g";
+$l['days'] = "Günler";
+$l['days_short'] = "g";
+$l['hour'] = "Saat";
+$l['hour_short'] = "s";
+$l['hours'] = "Saatler";
+$l['hours_short'] = "s";
+$l['minute'] = "Dakika";
+$l['minute_short'] = "d";
+$l['minutes'] = "Dakikalar";
+$l['minutes_short'] = "d";
+$l['second'] = "Saniye";
+$l['second_short'] = "s";
+$l['seconds'] = "Saniyeler";
+$l['seconds_short'] = "s";
+
+$l['rel_in'] = "";
+$l['rel_ago'] = "önce";
+$l['rel_less_than'] = "";
+$l['rel_time'] = "{2} {3} {4}";
+$l['rel_minutes_single'] = "dakika";
+$l['rel_minutes_plural'] = "dakika";
+$l['rel_hours_single'] = "saat";
+$l['rel_hours_plural'] = "saat";
+
+$l['permanent'] = "Kalıcı";
+$l['save_draft'] = "Taslak Olarak Kaydet";
+$l['go'] = "Git";
+$l['bbclosed_warning'] = "Forum durumunuz şu anda <a href=\"{1}\">kapalı</a> olarak ayarlanmıştır.";
+$l['banned_warning'] = "Forum hesabınız şu anda yasaklanmıştır.";
+$l['banned_warning2'] = "Yasaklama Nedeni";
+$l['banned_warning3'] = "Yasaklama kaldırılacak";
+$l['banned_lifted_never'] = "Asla";
+$l['banned_email_warning'] = "Şu anda bu forumda kullanılması izin verilmeyen bir e-posta adresi kullanıyorsunuz. Lütfen devam etmeden önce bunu sıfırlayın.";
+$l['powered_by'] = "Destekleyen";
+$l['powered_by_desc'] = "En iyi ücretsiz ve açık kaynak forum yazılımı";
+$l['copyright'] = "Telif Hakkı";
+$l['attach_quota'] = "Tahsis edilen ek kullanım kotanız {1}.";
+$l['attach_usage'] = "Şu anda <strong>{1}</strong> kullanıyorsunuz.";
+$l['view_attachments'] = "Eklerimi Görüntüle";
+$l['unlimited'] = "Sınırsız";
+
+$l['click_hold_edit'] = "(düzenlemek için tıklayın ve basılı tutun)";
+
+$l['guest_count'] = "1 Ziyaretçi";
+$l['guest_count_multiple'] = "{1} Ziyaretçi";
+
+$l['size_yb'] = "YB";
+$l['size_zb'] = "ZB";
+$l['size_eb'] = "EB";
+$l['size_pb'] = "PB";
+$l['size_tb'] = "TB";
+$l['size_gb'] = "GB";
+$l['size_mb'] = "MB";
+$l['size_kb'] = "KB";
+$l['size_bytes'] = "bytes";
+
+$l['slaps'] = "şaplaklar";
+$l['with_trout'] = "büyük bir alabalıkla biraz etrafında.";
+
+$l['mybb_engine'] = "MyBB Motoru";
+$l['quickdelete_confirm'] = "Bu gönderiyi silmek istediğinizden emin misiniz?";
+$l['quickrestore_confirm'] = "Bu gönderiyi geri yüklemek istediğinizden emin misiniz?";
+$l['newpm_notice_one'] = "<strong>Bir okunmamış özel mesajınız var</strong> {1} tarafından, başlığı <a href=\"{2}/private.php?action=read&amp;pmid={3}\" style=\"font-weight: bold;\">{4}</a>";
+$l['newpm_notice_multiple'] = "<strong>{1} okunmamış özel mesajınız var.</strong> En yenisi {2} tarafından, başlığı <a href=\"{3}/private.php?action=read&amp;pmid={4}\" style=\"font-weight: bold;\">{5}</a>";
+$l['unacknowledged_warnings_notice'] = "<strong>{1} onaylanmamış uyarınız var.</strong> Daha fazla bilgi için lütfen <strong><a href=\"usercp.php?action=warninglog\">kontrol panelinizi</a></strong> kontrol edin.";
+$l['deleteevent_confirm'] = "Bu etkinliği silmek istediğinizden emin misiniz?";
+$l['removeattach_confirm'] = "Bu gönderiden seçili eki kaldırmak istediğinizden emin misiniz?";
+
+$l['latest_threads'] = "En Son Konular";
+
+$l['folder_inbox'] = "Gelen Kutusu";
+$l['folder_unread'] = "Okunmamış";
+$l['folder_sent_items'] = "Gönderilen Öğeler";
+$l['folder_drafts'] = "Taslaklar";
+$l['folder_trash'] = "Çöp Kutusu";
+$l['folder_untitled'] = "Adsız Klasör";
+
+$l['standard_mod_tools'] = "Standart Araçlar";
+$l['custom_mod_tools'] = "Özel Araçlar";
+
+$l['error_loadlimit'] = "Maksimum sunucu yük sınırına ulaşıldı. Lütfen sunucu daha az meşgul olduğunda tekrar kontrol edin.";
+$l['error_banned'] = "Üzgünüz, ancak yasaklandınız. Gönderi yapamaz, konuları okuyamaz veya foruma erişemezsiniz. Herhangi bir sorunuz varsa lütfen forum yöneticinizle iletişime geçin.";
+$l['error_cannot_upload_php_post'] = "Dosya yüklenemiyor - php post_max_size yönergesi için çok büyük. Lütfen geri düğmesine basın.";
+$l['error_empty_post_input'] = "Gönderi verilerinizin boş olması nedeniyle bir hata oluştu. Bu, bir tarayıcı sayfa yenilemesi veya bu sayfaya doğrudan erişim nedeniyle olabilir. Tarayıcı geri düğmesine basmanızı ve yeniden başlamanızı öneririz.";
+$l['error_database_repair'] = "MyBB otomatik olarak çökmüş bir tabloyu onarıyor.";
+$l['unknown_user_trigger'] = "Bilinmeyen bir hata tetiklendi.";
+$l['warnings'] = "Aşağıdaki uyarılar oluştu:";
+
+$l['boardclosed'] = 'Geçici Olarak Kullanılamıyor';
+$l['boardclosed_reason'] = 'Bu forumlar şu anda bakım için kapalıdır. Lütfen daha sonra tekrar kontrol edin.';
+
+$l['ajax_loading'] = "Yükleniyor.<br />Lütfen Bekleyin&hellip;";
+$l['saving_changes'] = "Değişiklikler kaydediliyor&hellip;";
+$l['refresh'] = "Yenile";
+$l['select_language'] = "Hızlı Dil Seçimi";
+$l['select_theme'] = "Hızlı Tema Seçimi";
+
+$l['invalid_post_code'] = "Yetkilendirme kodu uyuşmazlığı. Bu işleve doğru şekilde mi erişiyorsunuz? Lütfen geri dönün ve tekrar deneyin.";
+$l['invalid_nocaptcha'] = "Robot olmadığınızı doğrulamak için lütfen reCAPTCHA'yı çözün.";
+$l['invalid_cfturnstile'] = "Robot olmadığınızı doğrulamak için lütfen CF-Turnstile captcha'yı çözün.";
+$l['invalid_hcaptcha'] = "Robot olmadığınızı doğrulamak için lütfen hCaptcha'yı çözün.";
+$l['invalid_captcha_verify'] = "Girdiğiniz resim doğrulama kodu yanlıştı. Lütfen kodu resimde göründüğü şekilde tam olarak girin.";
+$l['image_verification'] = "Resim Doğrulama";
+$l['human_verification'] = "İnsan Doğrulama";
+$l['verification_note'] = "Lütfen resimdeki metni altındaki metin kutusuna girin. Bu işlem otomatik spam botlarını önlemek için kullanılır.";
+$l['verification_note_nocaptcha'] = "Lütfen aşağıda gördüğünüz onay kutusunu işaretleyin. Bu işlem otomatik spam botlarını önlemek için kullanılır.";
+$l['verification_note_cfturnstile'] = "Lütfen aşağıda gördüğünüz onay kutusunu işaretleyin. Bu işlem otomatik spam botlarını önlemek için kullanılır.";
+$l['verification_note_hcaptcha'] = "Lütfen aşağıda gördüğünüz onay kutusunu işaretleyin. Bu işlem otomatik spam botlarını önlemek için kullanılır.";
+$l['verification_subnote'] = "(büyük/küçük harf duyarsız)";
+$l['invalid_nocaptcha_transmit'] = "reCAPTCHA ile insan doğrulamasında bir hata oluştu. Lütfen tekrar deneyin.";
+$l['invalid_cfturnstile_transmit'] = "CF-Turnstile captcha ile insan doğrulamasında bir hata oluştu. Lütfen tekrar deneyin.";
+$l['invalid_hcaptcha_transmit'] = "hCaptcha ile insan doğrulamasında bir hata oluştu. Lütfen tekrar deneyin.";
+$l['captcha_fetch_failure'] = 'Yeni captcha alınırken bir hata oluştu.';
+$l['question_fetch_failure'] = 'Yeni soru alınırken bir hata oluştu.';
+
+$l['timezone_gmt_minus_1200'] = "(GMT -12:00) Howland ve Baker Adaları";
+$l['timezone_gmt_minus_1100'] = "(GMT -11:00) Nome, Midway Adası";
+$l['timezone_gmt_minus_1000'] = "(GMT -10:00) Hawaii, Papeete";
+$l['timezone_gmt_minus_950'] = "(GMT -9:30) Marquesas Adaları";
+$l['timezone_gmt_minus_900'] = "(GMT -9:00) Alaska";
+$l['timezone_gmt_minus_800'] = "(GMT -8:00) Pasifik Saati";
+$l['timezone_gmt_minus_700'] = "(GMT -7:00) Dağ Saati";
+$l['timezone_gmt_minus_600'] = "(GMT -6:00) Merkezi Saat, Meksiko City";
+$l['timezone_gmt_minus_500'] = "(GMT -5:00) Doğu Saati, Bogota, Lima, Quito";
+$l['timezone_gmt_minus_450'] = "(GMT -4:30) Caracas";
+$l['timezone_gmt_minus_400'] = "(GMT -4:00) Atlantik Saati, La Paz, Halifax";
+$l['timezone_gmt_minus_350'] = "(GMT -3:30) Newfoundland";
+$l['timezone_gmt_minus_300'] = "(GMT -3:00) Brezilya, Buenos Aires, Georgetown, Falkland Ad.";
+$l['timezone_gmt_minus_200'] = "(GMT -2:00) Orta Atlantik, Güney Georgia ve Güney Sandwich Adaları";
+$l['timezone_gmt_minus_100'] = "(GMT -1:00) Azorlar, Cape Verde Adaları";
+$l['timezone_gmt'] = "(GMT) Kazablanka, Dublin, Edinburgh, Londra, Lizbon, Monrovia";
+$l['timezone_gmt_100'] = "(GMT +1:00) Berlin, Bratislava, Brüksel, Kopenhag, Madrid, Paris, Prag, Roma, Varşova";
+$l['timezone_gmt_200'] = "(GMT +2:00) Atina, İstanbul, Kahire, Kudüs, Güney Afrika";
+$l['timezone_gmt_300'] = "(GMT +3:00) Kaliningrad, Minsk, Bağdat, Riyad, Nairobi";
+$l['timezone_gmt_350'] = "(GMT +3:30) Tahran";
+$l['timezone_gmt_400'] = "(GMT +4:00) Moskova, Abu Dabi, Bakü, Muskat, Tiflis";
+$l['timezone_gmt_450'] = "(GMT +4:30) Kabil";
+$l['timezone_gmt_500'] = "(GMT +5:00) İslamabad, Karaçi, Taşkent";
+$l['timezone_gmt_550'] = "(GMT +5:30) Mumbai, Kalküta, Çennay, Yeni Delhi";
+$l['timezone_gmt_575'] = "(GMT +5:45) Katmandu";
+$l['timezone_gmt_600'] = "(GMT +6:00) Almatı, Dakka, Yekaterinburg";
+$l['timezone_gmt_650'] = "(GMT +6:30) Yangon";
+$l['timezone_gmt_700'] = "(GMT +7:00) Bangkok, Hanoi, Cakarta";
+$l['timezone_gmt_800'] = "(GMT +8:00) Pekin, Hong Kong, Perth, Singapur, Taipei, Manila";
+$l['timezone_gmt_850'] = "(GMT +8:30) Pyongyang";
+$l['timezone_gmt_875'] = "(GMT +8:45) Eucla";
+$l['timezone_gmt_900'] = "(GMT +9:00) Osaka, Sapporo, Seul, Tokyo, İrkutsk";
+$l['timezone_gmt_950'] = "(GMT +9:30) Adelaide, Darwin";
+$l['timezone_gmt_1000'] = "(GMT +10:00) Melbourne, Papua Yeni Gine, Sidney, Yakutsk";
+$l['timezone_gmt_1050'] = "(GMT +10:30) Lord Howe Adası";
+$l['timezone_gmt_1100'] = "(GMT +11:00) Magadan, Yeni Kaledonya, Solomon Adaları, Vladivostok";
+$l['timezone_gmt_1150'] = "(GMT +11:30) Norfolk Adası";
+$l['timezone_gmt_1200'] = "(GMT +12:00) Auckland, Wellington, Fiji, Marshall Adaları";
+$l['timezone_gmt_1275'] = "(GMT +12:45) Chatham Adaları";
+$l['timezone_gmt_1300'] = "(GMT +13:00) Samoa, Tonga, Tokelau";
+$l['timezone_gmt_1400'] = "(GMT +14:00) Line Adaları";
+$l['timezone_gmt_short'] = "GMT {1}({2})";
+
+$l['missing_task'] = "Hata: Görev dosyası mevcut değil";
+$l['task_backup_cannot_write_backup'] = "Hata: Veritabanı yedekleme görevi yedekler dizinine yazamıyor.";
+$l['task_backup_ran'] = "Veritabanı yedekleme görevi başarıyla çalıştı.";
+$l['task_checktables_ran'] = "Tablo kontrol görevi başarıyla çalıştı ve bozuk tablo bulunamadı.";
+$l['task_checktables_ran_found'] = "Bildirim: Tablo kontrol görevi başarıyla çalıştı ve {1} tablo onarıldı.";
+$l['task_dailycleanup_ran'] = "Günlük temizlik görevi başarıyla çalıştı.";
+$l['task_hourlycleanup_ran'] = "Saatlik temizlik görevi başarıyla çalıştı.";
+$l['task_logcleanup_ran'] = "Kayıt temizleme görevi başarıyla çalıştı ve eski kayıtlar temizlendi.";
+$l['task_promotions_ran'] = "Terfi görevleri başarıyla çalıştı.";
+$l['task_threadviews_ran'] = "Konu görüntüleme görevleri başarıyla çalıştı.";
+$l['task_usercleanup_ran'] = "Kullanıcı temizleme görevi başarıyla çalıştı.";
+$l['task_massmail_ran'] = "Toplu posta gönderme görevi başarıyla çalıştı.";
+$l['task_userpruning_ran'] = "Kullanıcı budama görevi başarıyla çalıştı.";
+$l['task_delayedmoderation_ran'] = "Gecikmeli moderasyon görevi başarıyla çalıştı.";
+$l['task_massmail_ran_errors'] = "Bir veya daha fazla sorun \"{1}\" adresine gönderilirken oluştu: {2}";
+$l['task_versioncheck_ran'] = "Sürüm kontrol görevi başarıyla çalıştı.";
+$l['task_versioncheck_ran_errors'] = "MyBB'ye sürüm kontrolü için bağlanılamadı.";
+$l['task_recachestylesheets_ran'] = '{1} stil sayfası yeniden önbelleğe alındı.';
+$l['task_sendmailqueue_ran'] = '{1} mesaja kadar posta gönderme kuyruğu görevi gönderdi.';
+
+$l['dismiss_notice'] = "Bu bildirimi kapat";
+
+$l['next'] = "Sonraki";
+$l['previous'] = "Önceki";
+$l['delete'] = "Sil";
+
+$l['massmail_username'] = "Kullanıcı Adı";
+$l['email_addr'] = "E-posta Adresi";
+$l['board_name'] = "Forum Adı";
+$l['board_url'] = "Forum URL'si";
+
+$l['comma'] = ", ";
+
+$l['debug_generated_in'] = "Oluşturulma süresi {1}";
+$l['debug_weight'] = "({1}% PHP / {2}% {3})";
+$l['debug_sql_queries'] = "SQL Sorguları: {1}";
+$l['debug_server_load'] = "Sunucu Yükü: {1}";
+$l['debug_memory_usage'] = "Bellek Kullanımı: {1}";
+$l['debug_advanced_details'] = "Gelişmiş Detaylar";
+
+$l['error_emailflooding_1_second'] = "Üzgünüz, ancak her {1} dakikada yalnızca bir e-posta gönderebilirsiniz. Lütfen tekrar e-posta göndermeye çalışmadan önce 1 saniye daha bekleyin.";
+$l['error_emailflooding_seconds'] = "Üzgünüz, ancak her {1} dakikada yalnızca bir e-posta gönderebilirsiniz. Lütfen tekrar e-posta göndermeye çalışmadan önce {2} saniye daha bekleyin.";
+$l['error_emailflooding_1_minute'] = "Üzgünüz, ancak her {1} dakikada yalnızca bir e-posta gönderebilirsiniz. Lütfen tekrar e-posta göndermeye çalışmadan önce 1 dakika daha bekleyin.";
+$l['error_emailflooding_minutes'] = "Üzgünüz, ancak her {1} dakikada yalnızca bir e-posta gönderebilirsiniz. Lütfen tekrar e-posta göndermeye çalışmadan önce {2} dakika daha bekleyin.";
+$l['error_invalidfromemail'] = "Geçerli bir gönderici e-posta adresi girmediniz.";
+$l['error_noname'] = "Geçerli bir isim girmediniz.";
+$l['your_email'] = "E-posta Adresiniz:";
+$l['email_note'] = "E-posta adresinizi buraya girin.";
+$l['your_name'] = "Adınız:";
+$l['name_note'] = "Adınızı buraya girin.";
+
+$l['january'] = "Ocak";
+$l['february'] = "Şubat";
+$l['march'] = "Mart";
+$l['april'] = "Nisan";
+$l['may'] = "Mayıs";
+$l['june'] = "Haziran";
+$l['july'] = "Temmuz";
+$l['august'] = "Ağustos";
+$l['september'] = "Eylül";
+$l['october'] = "Ekim";
+$l['november'] = "Kasım";
+$l['december'] = "Aralık";
+
+$l['moderation_forum_attachments'] = "Lütfen unutmayın, bu forumdaki yeni ekler bir moderatör tarafından onaylanmadan görünür olmaz.";
+$l['moderation_forum_posts'] = "Lütfen unutmayın, bu forumdaki yeni gönderiler bir moderatör tarafından onaylanmadan görünür olmaz.";
+$l['moderation_user_posts'] = "Lütfen unutmayın, yaptığınız yeni gönderiler bir moderatör tarafından onaylanmadan görünür olmaz.";
+$l['moderation_forum_thread'] = "Lütfen unutmayın, bu forumdaki yeni konular bir moderatör tarafından onaylanmadan görünür olmaz.";
+$l['moderation_forum_edits'] = "Lütfen unutmayın, bu forumdaki düzenlenen gönderiler bir moderatör tarafından onaylanmadan görünür olmaz.";
+$l['moderation_forum_edits_quick'] = "Lütfen unutmayın, bu forumdaki düzenlenen gönderiler bir moderatör tarafından onaylanmadan görünür olmaz.";
+$l['awaiting_message_link'] = " <a href=\"{1}/{2}/index.php?module=user-awaiting_activation\">Yönetim Paneline Git</a>.";
+$l['awaiting_message_single'] = "Aktivasyon bekleyen 1 hesap var. Lütfen kullanıcıyı aktifleştirmek için Yönetim Panelinize gidin.";
+$l['awaiting_message_plural'] = "Aktivasyon bekleyen {1} hesap var. Lütfen kullanıcıları aktifleştirmek için Yönetim Panelinize gidin.";
+
+$l['select2_match'] = "Bir sonuç mevcut, seçmek için enter tuşuna basın.";
+$l['select2_matches'] = "{1} sonuç mevcut, gezinmek için yukarı ve aşağı ok tuşlarını kullanın.";
+$l['select2_nomatches'] = "Eşleşme bulunamadı";
+$l['select2_inputtooshort_single'] = "Lütfen bir veya daha fazla karakter girin";
+$l['select2_inputtooshort_plural'] = "Lütfen {1} veya daha fazla karakter girin";
+$l['select2_inputtoolong_single'] = "Lütfen bir karakter silin";
+$l['select2_inputtoolong_plural'] = "Lütfen {1} karakter silin";
+$l['select2_selectiontoobig_single'] = "Sadece bir öğe seçebilirsiniz";
+$l['select2_selectiontoobig_plural'] = "Sadece {1} öğe seçebilirsiniz";
+$l['select2_loadmore'] = "Daha fazla sonuç yükleniyor&hellip;";
+$l['select2_searching'] = "Aranıyor&hellip;";
+
+$l['stopforumspam_error_decoding'] = 'StopForumSpam.com sitesinden veri çözümlenirken hata oluştu.';
+$l['stopforumspam_error_retrieving'] = 'StopForumSpam.com sitesinden veri alınırken hata oluştu.';
+$l['stopforumspam_invalid_email'] = 'StopForumSpam.com API\'sine karşı kontrol edilirken geçersiz e-posta adresi.';
+$l['stopforumspam_invalid_ip_address'] = 'StopForumSpam.com API\'sine karşı kontrol edilirken geçersiz IP adresi.';
+
+$l['sfs_error_username'] = 'kullanıcı adı';
+$l['sfs_error_ip'] = 'IP';
+$l['sfs_error_email'] = 'e-posta';
+$l['sfs_error_or'] = 'veya';
+
+$l['expcol_collapse'] = '[-]';
+$l['expcol_expand'] = '[+]';
+
+$l['use_default'] = "Varsayılanı Kullan";
+
+$l['expires'] = "Sona Erme";
+$l['acknowledged'] = "Onaylandı";
+$l['not_acknowledged'] = "Onaylanmadı";
