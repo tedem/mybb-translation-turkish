@@ -16,12 +16,13 @@ Once MyBB 1.9 is released, this translation will be officially published. For no
 
 Details of the translation are as follows:
 
-| **Field**        | **Information**     |
-| ---------------- | ------------------- |
-| **Translator**   | Medet "tedem" Erdal |
-| **MyBB Version** | 1.9.x               |
-| **Language**     | Turkish (tr)        |
-| **Status**       | Usable              |
+| **Field**        | **Information**                                          |
+| ---------------- | -------------------------------------------------------- |
+| **Translator**   | Medet "tedem" Erdal                                      |
+| **MyBB Version** | 1.9.x                                                    |
+| **Language**     | Turkish (tr)                                             |
+| **Status**       | Usable                                                   |
+| **Last Commit**  | [496bd0e](https://github.com/mybb/mybb/commits/dev-1.9/) |
 
 ## Installation
 
