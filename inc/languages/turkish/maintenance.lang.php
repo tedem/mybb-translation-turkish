@@ -52,41 +52,39 @@ $l['version_check'] = 'En Son Sürümü Kontrol Et';
 $l['version_check_active'] = 'Güncellemeler kontrol ediliyor…';
 $l['version_check_newer'] = 'En son sürüm <a href="https://mybb.com/download" target="_blank">{1}</a>';
 $l['version_check_latest'] = 'En son sürüm';
-$l['version_check_error'] = 'Otomatik olarak kontrol edilemedi — ziyaret edin <a href="https://mybb.com" target="_blank" rel="noreferrer">MyBB.com</a>';
+$l['version_check_error'] = 'Otomatik olarak kontrol edilemedi. <a href="https://mybb.com" target="_blank" rel="noreferrer">MyBB.com</a> adresini ziyaret edin.';
 
 // insecure transport warning
 $l['insecure_transport'] = 'Güvensiz Bağlantı Protokolü Algılandı';
 $l['insecure_transport_message'] = 'Buraya girilen hassas bilgiler başkaları tarafından görülebilir. Sunucunun HTTPS desteklediğinden emin olmalı ve devam etmeden önce <code>https://</code> protokolünü kullanmalısınız.';
 
 // miscellaneous
-$l['support'] = 'Yardıma mı ihtiyacınız var? MyBB <a href="https://docs.mybb.com" target="_blank">Dokümantasyon</a> ve <a href="https://mybb.com/support" target="_blank">Destek kanallarını</a> kontrol edin.';
-$l['powered_by_phrases'] = 'Yeni forum oluşturuluyor
-İnsanları bir araya getiriyor
-Hazırlanıyor
-İnsanları birbirine bağlıyor
-Tam doğru bir topluluk
-Potansiyel aşılıyor
-Harfi harfine forum
-Yakında çalışacak';
+$l['support'] = 'Yardıma mı ihtiyacınız var? <a href="https://docs.mybb.com" target="_blank">Dokümantasyon</a> ve <a href="https://mybb.com/support" target="_blank">destek</a> kanallarımıza göz atın.';
+$l['powered_by_phrases'] = 'Yeni bir başlangıç için
+İnsanları bir araya getirmek için
+Gece 3\'te mesaj atmak için
+Güçlü bir topluluk için
+Bir konu daha açmak için
+Sorunları çözmek için';
 #endregion
 
 #region fatal errors
 $l['locked_title'] = 'Devam Etmek İçin Kilidi Açın';
 $l['locked'] = 'Lütfen <code>{1}</code> dosyasını <code>install/</code> dizininden kaldırın ve bu MyBB forumunu kurmak veya yükseltmek için tekrar deneyin.';
 
-$l['empty_config_to_reinstall_title'] = 'MyBB\'yi Yeniden Yüklemeden Önce';
-$l['empty_config_to_reinstall'] = '<p>Mevcut forumun üzerine yazmak ve MyBB\'yi tekrar yüklemek istediğinizden emin iseniz, yapılandırma dosyasını <code>inc/config.php</code> boşaltın veya silin ve bu sayfayı yenileyin.
+$l['empty_config_to_reinstall_title'] = 'Yeni MyBB Kurulumuna Başlamadan';
+$l['empty_config_to_reinstall'] = 'Mevcut forumun üzerine yazmak ve MyBB yazılımını yeniden kurmak istiyorsanız, <code>inc/config.php</code> yapılandırma dosyasını silin veya içeriğini boşaltın. Ardından bu sayfayı yenileyerek kuruluma devam edin.
 <br><br>
-<p>Forumunuzu yükseltmeyi planlıyorsanız, lütfen <a href="./upgrade.php"><strong>buraya tıklayın</strong></a>.';
+Forumu yükseltmeyi planlıyorsanız, lütfen <a href="./upgrade.php"><strong>buraya</strong></a> tıklayın.';
 
 $l['upgrade_initialization_failed_title'] = 'Başlatma Başarısız Oldu';
-$l['upgrade_initialization_failed'] = 'MyBB\'yi yükseltmek için çalışan bir forum gereklidir. Yeni bir forum kurmayı planlıyorsanız, bunun yerine <a href="./index.php?process=install"><strong>kurulum sürecini</strong></a> başlatın.';
+$l['upgrade_initialization_failed'] = 'MyBB yazılımını yükseltmek için çalışan bir forum gereklidir. Yeni bir forum kurmayı planlıyorsanız, bunun yerine <a href="./index.php?process=install"><strong>kurulum sürecini</strong></a> başlatın.';
 
 $l['upgrade_not_authorized_title'] = 'Yükseltme Yetkisi Gerekli';
 $l['upgrade_not_authorized'] = 'Kurulum dizininde <code>{1}</code> adlı bir dosya oluşturun ve bu sayfayı yenileyin.';
 
 $l['upgrade_not_needed_title'] = 'Zaten Güncel';
-$l['upgrade_not_needed'] = 'Bu sürüm için yükseltme işlemi gerekli değildir.<br><br>Bu bir hata olduğunu düşünüyorsanız, <a href="./index.php?process=upgrade&force=1">yükseltmeyi zorlayabilirsiniz</a>. Aksi takdirde, kurulum dizinini silebilirsiniz.</p>';
+$l['upgrade_not_needed'] = 'Bu sürüm için yükseltme işlemi gerekli değildir.<br><br>Hata olduğunu düşünüyorsanız, <a href="./index.php?process=upgrade&force=1">buradan</a> yükseltmeyi zorlayarak devam edebilirsiniz.';
 #endregion
 
 #region common operations content
@@ -112,12 +110,12 @@ $l['installation_state_installed'] = '{1} veya daha yeni sürüm yüklendi';
 #region data seeding
 $l['board_name_default'] = 'MyBB';
 $l['welcome_thread_username'] = 'MyBB Bot';
-$l['welcome_thread_subject'] = 'MyBB\'ye Hoş Geldiniz!';
+$l['welcome_thread_subject'] = 'MyBB ile Merhaba Dünya!';
 $l['welcome_thread_message'] = 'Forumunuz başarıyla kuruldu.
 
 MyBB destek kaynaklarına, belgelere erişmek, sorunları gidermek veya geri bildirimde bulunmak için lütfen [url=https://mybb.com/support/]mybb.com/support[/url] adresini ziyaret edin.
 
-Kullanıcılar, web yöneticileri, eklenti yazarları ve geliştiricilerden oluşan MyBB Topluluğunun bir parçası olmanız için sizi [url=https://community.mybb.com]Topluluk Forumları[/url]na katılmaya davet ediyoruz.
+Kullanıcılar, web yöneticileri, eklenti yazarları ve geliştiricilerden oluşan [url=https://mybb.com]MyBB[/url] topluluğunun bir parçası olmak ister misiniz? O zaman [url=https://community.mybb.com]community.mybb.com[/url] adresine göz atın!
 
 Teşekkürler,
 MyBB Ekibi[color=#ffffff]. [i]Ücretsiz olmak hiç bu kadar güzel olmamıştı.[/i][/color]
@@ -138,7 +136,7 @@ $l['welcome_thread_message_devmode'] = 'MyBB {2}, {3} tarihinde geliştirme modu
 
 #region miscellaneous
 $l['task_versioncheck_ran'] = 'Sürüm kontrol görevi başarıyla çalıştı.';
-$l['task_versioncheck_ran_errors'] = "Sürüm kontrolü için MyBB\'ye bağlanılamadı.";
+$l['task_versioncheck_ran_errors'] = "Sürüm kontrolü için bağlanılamadı.";
 $l['na'] = 'N/A';
 #endregion
 
@@ -156,11 +154,11 @@ $l['install_step_account_title'] = 'Hesabım';
 // step pages
 $l['install_step_start_heading'] = 'Yeni Forum Kur';
 $l['install_step_start_heading_reinstall'] = 'Forumu Yeniden Kur';
-$l['install_step_start_description'] = 'MyBB kurulumuna hoş geldiniz. Bu işlem sırasında forum yazılımı sunucunuza kurulacaktır.';
-$l['install_step_start_description_reinstall'] = 'MyBB kurulumuna hoş geldiniz. Bu işlem sırasında forum yazılımı sunucunuza yeniden kurulacak ve mevcut forum üzerine yazılacaktır. Yeni bir forum oluşturulacak — mevcut konular, mesajlar, kullanıcılar ve diğer bilgiler silinecektir (<a href="./index.php?process=upgrade"><strong>yerine yükseltme yap?</strong></a>?).';
+$l['install_step_start_description'] = 'MyBB kurulumuna hoş geldiniz. Bu işlem sırasında forum yazılımı sunucunuza kurulacak ve yeni bir forum oluşturulacaktır.';
+$l['install_step_start_description_reinstall'] = 'MyBB kurulumuna hoş geldiniz. Bu işlem sırasında forum yazılımı sunucunuza yeniden kurulacak ve mevcut forum üzerine yazılacaktır. Yeni bir forum oluşturulacak ve mevcut konular, mesajlar, kullanıcılar ve diğer bilgiler silinecektir. (<a href="./index.php?process=upgrade"><strong>Yerine yükseltme yap?</strong></a>?).';
 $l['install_step_start_description_reinstall_cli'] = 'MyBB kurulumuna hoş geldiniz. Bu işlem sırasında forum yazılımı sunucunuza yeniden kurulacak ve mevcut forum üzerine yazılacaktır. Yeni bir forum oluşturulacak ve mevcut konular, mesajlar, kullanıcılar ve diğer bilgiler silinecektir.';
 $l['install_step_database_heading'] = 'Veritabanına Bağlan';
-$l['install_step_database_instructions'] = 'Forum içeriğinin saklanacağı veritabanı için bağlantı bilgilerini sağlayın. Bu bilgileri bilmiyorsanız, genellikle web barındırıcınızdan alınabilir veya barındırma kontrol panelinizde bir veritabanı oluşturulabilir.';
+$l['install_step_database_instructions'] = 'MyBB forumunuz için kullanılacak veritabanı bağlantı bilgilerini sağlayın. Kurulum, gerekli tabloları ve varsayılan verileri otomatik olarak oluşturacaktır.';
 
 $l['install_step_settings_heading'] = 'Forum Ayarlarını Yapılandır';
 $l['install_step_settings_instructions'] = 'Yeni forumunuz için temel ayarları yapılandırın ve gözden geçirin. Bunlar daha sonra kolayca değiştirilebilir.';
@@ -182,7 +180,7 @@ $l['operation_lock_title'] = 'Kurulum Kilidi';
 $l['operation_requirements_check_error_title'] = 'Bazı gereksinimler karşılanmadı';
 
 // parameters
-$l['parameter_send_specifications_title'] = 'Tek seferlik anonim istatistikleri sunucu özellikleri ile birlikte göndererek MyBB\'yi geliştirmeye yardımcı olun <a href="https://docs.mybb.com/1.8/install/anonymous-statistics/" target="_blank" rel="noreferrer" title="More information on MyBB.com" class="information"><i class="fas fa-info-circle"></i></a>';
+$l['parameter_send_specifications_title'] = 'Sunucu ve donanım bilgilerinizi anonim istatistiklerle paylaşarak MyBB yazılımının geliştirilmesine katkıda bulunun. <a href="https://docs.mybb.com/1.8/install/anonymous-statistics/" target="_blank" rel="noreferrer" title="Daha fazla bilgi" class="information"><i class="fas fa-info-circle"></i></a>';
 
 $l['parameter_db_engine_title'] = 'Veritabanı Motoru';
 $l['parameter_db_host_title'] = 'Veritabanı Sunucusu';
@@ -194,12 +192,12 @@ $l['parameter_db_table_prefix_title'] = 'Tablo Öneki';
 
 $l['parameter_bbname_title'] = 'Forum Adı';
 $l['parameter_bbname_value'] = 'Forumlar';
-$l['parameter_bburl_title'] = 'Forum URL\'si';
+$l['parameter_bburl_title'] = 'Forum URL';
 $l['parameter_adminemail_title'] = 'Yönetici E-posta Adresi';
 $l['parameter_adminemail_description'] = 'Giden e-postalar ve iletişim formu için kullanılır.';
 $l['parameter_cookiedomain_title'] = 'Çerez Alanı';
 $l['parameter_cookiepath_title'] = 'Çerez Yolu';
-$l['parameter_acp_pin_title'] = 'Yönetici Kontrol Paneli PIN\'i';
+$l['parameter_acp_pin_title'] = 'Yönetici Kontrol Paneli PIN Kodu';
 $l['parameter_acp_pin_description'] = 'Bireysel hesap parolalarına ek olarak, Yönetici Kontrol Paneline giriş için gereken isteğe bağlı bir koddur.';
 
 $l['parameter_account_username_title'] = 'Kullanıcı Adı';
@@ -277,4 +275,4 @@ $l['parameter_upgrade_start_description'] = 'Seçilen yükseltme ve daha yüksek
 // operations content
 $l['upgrade_version_to_be_installed'] = 'Yükseltme Sonrası Sürüm';
 $l['upgrades_to_apply'] = 'Uygulanacak Yükseltmeler';
-$l['upgrade_to_apply'] = '#{1} (sürüm {2}\'den)';
+$l['upgrade_to_apply'] = '#{1} (sürüm {2} üzerinden)';
