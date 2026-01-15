@@ -46,7 +46,6 @@ $l['theme_core_package'] = "Yerleşik Paket";
 $l['theme_original_package'] = "İçe Aktarılan Paket";
 $l['theme_board_package'] = "Özel Paket";
 $l['num_users'] = "# Kullanıcı";
-$l['edit_theme'] = "Temayı Düzenle";
 $l['delete_theme'] = "Temayı Sil";
 $l['set_as_default'] = "Varsayılan Olarak Ayarla";
 $l['default_theme'] = "Varsayılan Tema";

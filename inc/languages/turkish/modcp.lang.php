@@ -343,5 +343,3 @@ $l['you_cannot_moderate_threads'] = "Konu moderasyonu yapma yetkiniz yok.";
 $l['you_cannot_moderate_posts'] = "Gönderi moderasyonu yapma yetkiniz yok.";
 $l['you_cannot_moderate_attachments'] = "Ek dosya moderasyonu yapma yetkiniz yok.";
 $l['you_cannot_use_mod_queue'] = "Moderatör Kuyruğunu kullanma yetkiniz yok.";
-
-$l['post'] = 'Gönderi';

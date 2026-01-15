@@ -67,7 +67,6 @@ $l['step_four'] = "Adım 4";
 $l['delivery_method'] = "Teslimat Yöntemi";
 $l['private_message'] = "Özel Mesaj";
 $l['email'] = "E-Posta";
-$l['subject'] = "Konu";
 $l['message'] = "Mesaj";
 $l['text_based'] = "Metin Tabanlı";
 $l['preview'] = "Önizleme";
