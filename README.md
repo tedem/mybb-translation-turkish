@@ -23,7 +23,7 @@ Details of the translation are as follows:
 | **MyBB Version** | 1.9.x                                                      |
 | **Language**     | Turkish (tr)                                               |
 | **Status**       | Usable                                                     |
-| **Last Commit**  | [`f19f04d`](https://github.com/mybb/mybb/commits/dev-1.9/) |
+| **Last Commit**  | [`61fff55`](https://github.com/mybb/mybb/commits/dev-1.9/) |
 
 ## Installation
 
